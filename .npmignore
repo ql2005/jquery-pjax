@@ -1,0 +1,7 @@
+.travis.yml
+Gemfile
+Gemfile.lock
+CONTRIBUTING.md
+vendor/
+script/
+test/
