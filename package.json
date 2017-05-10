@@ -1,16 +1,25 @@
 {
-  "name": "jquery-pjax",
+  "name": "@ql2005/jquery-pjax",
   "version": "1.9.6",
-  "main": "jquery.pjax.js",
-  "repository": "defunkt/jquery-pjax",
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/defunkt/jquery-pjax/blob/master/LICENSE"
-    }
+  "license": "MIT",
+  "description": "Pushstate and AJAX",
+  "keywords": [
+    "pjax",
+    "ajax",
+    "pushstate",
+    "jquery"
   ],
-  "files" : [
-    "LICENSE",
-    "jquery.pjax.js"
-  ]
+  "homepage": "https://github.com/ql2005/jquery-pjax",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ql2005/jquery-pjax.git"
+  },
+  "bugs": {
+    "url" : "git+https://github.com/ql2005/jquery-pjax/issues"
+  },
+  "engines": {},
+  "main": "jquery.pjax.js",
+  "dependencies": {
+    "jquery": "^2.1.0"
+  }
 }

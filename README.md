@@ -21,6 +21,8 @@
      jgs  |___\_.\_
           `-"--'---'
 
+> Add *CommonJS & AMD* support
+
 ## Introduction
 
 pjax is a jQuery plugin that uses ajax and pushState to deliver a fast browsing experience with real permalinks, page titles, and a working back button.
@@ -158,20 +160,20 @@ $(document).pjax(selector, [container], options)
 
 ##### pjax options
 
-key | default | description
-----|---------|------------
-`timeout` | 650 | ajax timeout in milliseconds after which a full refresh is forced
-`push` | true | use [pushState][] to add a browser history entry upon navigation
-`replace` | false | replace URL without adding browser history entry
-`maxCacheLength` | 20 | maximum cache size for previous container contents
-`version` | | a string or function returning the current pjax version
-`scrollTo` | 0 | vertical position to scroll to after navigation. To avoid changing scroll position, pass `false`.
-`type` | `"GET"` | see [$.ajax][]
-`dataType` | `"html"` | see [$.ajax][]
-`container` | | CSS selector for the element where content should be replaced
-`url` | link.href | a string or function that returns the URL for the ajax request
-`target` | link | eventually the `relatedTarget` value for [pjax events](#events)
-`fragment` | | CSS selector for the fragment to extract from ajax response
+| key              | default   | description                              |
+| ---------------- | --------- | ---------------------------------------- |
+| `timeout`        | 650       | ajax timeout in milliseconds after which a full refresh is forced |
+| `push`           | true      | use [pushState][] to add a browser history entry upon navigation |
+| `replace`        | false     | replace URL without adding browser history entry |
+| `maxCacheLength` | 20        | maximum cache size for previous container contents |
+| `version`        |           | a string or function returning the current pjax version |
+| `scrollTo`       | 0         | vertical position to scroll to after navigation. To avoid changing scroll position, pass `false`. |
+| `type`           | `"GET"`   | see [$.ajax][]                           |
+| `dataType`       | `"html"`  | see [$.ajax][]                           |
+| `container`      |           | CSS selector for the element where content should be replaced |
+| `url`            | link.href | a string or function that returns the URL for the ajax request |
+| `target`         | link      | eventually the `relatedTarget` value for [pjax events](#events) |
+| `fragment`       |           | CSS selector for the fragment to extract from ajax response |
 
 You can change the defaults globally by writing to the `$.pjax.defaults` object:
 
