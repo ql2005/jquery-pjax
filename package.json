@@ -1,6 +1,6 @@
 {
   "name": "@ql2005/jquery-pjax",
-  "version": "1.9.6",
+  "version": "1.9.7",
   "license": "MIT",
   "description": "Pushstate and AJAX",
   "keywords": [
